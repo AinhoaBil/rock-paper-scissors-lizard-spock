@@ -1,4 +1,10 @@
 body {
-    background: #e3999a;
+    background-image: url("../images/Left-young-woman--showing-the-vulcan-salute.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e3999a; /* Used if the image is unavailable */
+    text-align:right;
+    font-size: 150%;
+    color: #40271b;
 
 }
