@@ -9,6 +9,20 @@ body {
 
 }
 
+button {
+    background: #eea8a8;
+    border-style: solid;
+    border: 10px;
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+
 .signature {
     font-size: 50%;
 
