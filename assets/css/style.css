@@ -2,26 +2,85 @@ body {
     background-image: url("../images/Left-young-woman--showing-the-vulcan-salute.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #e3999a; /* Used if the image is unavailable */
-    text-align:right;
-    font-size: 150%;
+    background-color: #e3999a;
+    /* Used if the image is unavailable */
+    text-align: right;
     color: #40271b;
 
 }
+
+#container_title {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    width: 750px;
+    height: 250px;
+    padding: 30px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    border-width: 1px;
+    opacity: 0.70;
+    background-color: #f7dcd4;
+
+
+}
+
+
+#atom_logo {
+    background-color: #f7dcd4;
+    border-radius: 50%;
+}
+
+#atom_logo img {
+    width: 200px;
+    height: auto;
+}
+
+#title {
+    border: solid 2px red;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+
+#game_area_container {
+    margin-left: 50%;
+    width: 750px;
+    height: 600px;
+    padding: 30px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    border-width: 1px;
+    opacity: 0.70;
+    background-color: #f7dcd4;
+}
+
 
 button {
     background: #eea8a8;
     border-style: solid;
     border: 10px;
     border-radius: 15px;
-    
+
 }
 
 
+#footer_container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px auto;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    border-width: 1px;
+    opacity: 0.70;
+    background-color: #f7dcd4;
 
-
-
-
+}
 
 .signature {
     font-size: 50%;

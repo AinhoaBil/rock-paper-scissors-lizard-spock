@@ -20,44 +20,49 @@
 </head>
 <body>
     <!--Logo, title-->
-    <h1 class="logo">
-        <div>ROCK</div>
-        <div>PAPER</div>
-        <div>SCISSORS</div>
-        <div>LIZARD</div>
-        <div>SPOCK</div>
-         
-    </h1>
+    <div id="container_title">
+        <div id="atom_logo">
+            <img src="assets/images/icons8-atom-100 (1).png" alt="atom icon"> 
+        </div >
+        <div id="title">
+              <div>ROCK</div>
+              <div>PAPER</div>
+              <div>SCISSORS</div>
+              <div>LIZARD</div>
+              <div>SPOCK</div>
+
+        </div>
+    </div>
+
 
     <!-- GAME AREA-->
+    <div id="game_area_container">
+      <div><h1>GAME AREA</h1></div>
+      <div><h2>Choose a weapon</h2></div>
+      <button id="rock">
+          <img src="assets/images/icons8-hand-rock-80.jpg" alt="hand rock icon">
+      </button>
+      <button id="paper">
+          <img src="assets/images/icons8-hand-paper-80.png" alt="hand paper icon">
+      </button>
+      <button id="scissors">
+          <img src="assets/images/output-onlinepngtools-scissors80.png" alt="hand scissors icon">
+      </button>
+      <button id="lizard">
+          <img src="assets/images/output-onlinepngtools-2lizard.png" alt="hand lizard icon">
+      </button>
+      <button id="spock">
+          <img src="assets/images/icons8-spock-80.png" alt="hand Spock icon">
+      </button>
 
-    <div><h1>GAME AREA</h1></div>
-    <div><h2>Choose a weapon</h2></div>
-    <button id="rock">
-        <img src="assets/images/icons8-hand-rock-80.jpg" alt="hand rock icon">
-    </button>
-    <button id="paper">
-        <img src="assets/images/icons8-hand-paper-80.png" alt="hand paper icon">
-    </button>
-    <button id="scissors">
-        <img src="assets/images/output-onlinepngtools-scissors80.png" alt="hand scissors icon">
-    </button>
-    <button id="lizard">
-        <img src="assets/images/output-onlinepngtools-2lizard.png" alt="hand lizard icon">
-    </button>
-    <button id="spock">
-        <img src="assets/images/icons8-spock-80.png" alt="hand Spock icon">
-    </button>
-
-    
-
-    <!-- BOT's choice and RESULT-->
-
-    <div>
+      <!-- BOT's choice and RESULT-->
+      <div>
         BOT, RESULT
-    </div>
-   
-    <footer class="signature">
+      </div>
+    </div> 
+    
+    
+    <footer class="signature" id="footer_container">
         <div>
             <p>Copyright © Rock, paper, scissors, lizard and Spock</p>
             <p>Made by Ainhoa Bilbao Lodosa with ❤ in Cork (Ireland)</p>
