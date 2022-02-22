@@ -13,7 +13,7 @@ You can win, lose or tie. Your score and the bot's score is also displayed.
 
 ### Rules:
 
-#### Rock: 
+#### https://fonts.gstatic.com/s/e/notoemoji/14.0/1faa8/72.png Rock: 
 Rock crushes scissors
 Rock crushes lizard
 Paper covers Rock
