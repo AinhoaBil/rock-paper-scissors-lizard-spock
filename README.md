@@ -13,7 +13,7 @@ You can win, lose or tie. Your score and the bot's score is also displayed.
 
 ### Rules:
 
-#### https://fonts.gstatic.com/s/e/notoemoji/14.0/1faa8/72.png Rock: 
+#### Rock: 
 Rock crushes scissors
 Rock crushes lizard
 Paper covers Rock
@@ -43,7 +43,9 @@ Spock vaporizes rock
 Paper disproves Spock
 Lizard poisons Spock
 
-### Online resources used:
+### Online resources and Links used:
+
+This site was built using **[GitHub Pages](https://pages.github.com/).**
 
 - **Background picture** downloaded from: **icons8.com**
 https://icons8.com/photos/photo/young-woman-showing-the-vulcan-salute--5ac4ecd78b65880001f5f5d8
