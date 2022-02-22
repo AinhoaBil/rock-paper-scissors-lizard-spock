@@ -1,8 +1,16 @@
+/* V to see who wins */
+let winner = document.getElementById("winner");
+
+/* Variable to count the score */
+let bot_hand = 0;
+let my_hand = 0;
+
+
 /**
- * Creating Game rules convert
+ * Game rules 
  */
 
- let player_hand_choice = {
+let hand_choice = {
     Rock: {
         Rock: "Tie",
         Scissors: "Lose",
@@ -47,28 +55,35 @@
 };
 
 
-function player(hand){
+function player(hand) {
+    /* Array wiht weapons */
+    let weapon =["Rock","Paper", "Scissors", "Lizard", "Spock"]; /* 0 to 4*/
+    /* Variable to create a random number between 1 and 5 for the bot's selection, only the integer without decimals */
+    let randNum = Math.trunc(Math.random() * 5); /* Verified on google dev tools it's working using console.log */
+    /* Variable to create the bot choice converting numbers to weapons from the array above */
+    let bot_choice = weapon[randNum]; /* Verified on google dev tools it's working using console.log */
+    /* Bot's choice and player's choice */
+    document.getElementById("user_go").innerHTML =`Bot's choice: <span>${bot_choice.toUpperCase()}</span>`;
+    document.getElementById("bot_go").innerHTML = `Your choice: <span>${hand.toUpperCase()}</span>`;
 
-/* Array wiht weapons */
-let weapon =["Rock","Paper", "Scissors", "Lizard", "Spock"]; /* 0 to 4*/
+    /*Who wins text */
+    switch (hand_choice[bot_choice][hand]) {
+        case "Win":
+          winner.innerText = `You won`;
+          my_hand++;
+          break;
+        case "Lose":
+          winner.innerText = `You lost`;
+          bot_hand++;
+          break;
+        case "Tie":
+          winner.innerText = `You draw`;
+          break;
+    }
 
 
-/* Variable to create a random number between 1 and 5 for the bot's selection, only the integer without decimals */
-let randNum = Math.trunc(Math.random() * 5); /* Verified on google dev tools it's working using console.log */
+    /* Update score */
+    document.getElementById("botscore").innerHTML = bot_hand;
+    document.getElementById("myscore").innerHTML = my_hand;
 
-/* Variable to create the bot choice converting numbers to weapons from the array above */
-let bot_choice = weapon[randNum]; /* Verified on google dev tools it's working using console.log */
-console.log(randNum);
-console.log(bot_choice);
-
-/* V to see who wins */
-let winner = document.getElementById("winner");
-
-
-/* Variable to count the score */
-
-/* Bot's choice and player's choice */
-
-/*Who wins text */
-
-} 
+}
