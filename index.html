@@ -1,88 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!--Google font: Mukta: Game title--> 
+    <!--Google font: Mukta: Game title-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-      <!--Internal link to CSS-->
+    <!--Internal link to CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Title on top URL-->
     <title>Rock, paper, scissors, lizard and Spock</title>
 </head>
+
 <body>
     <!--Logo, title-->
     <div id="container_title">
         <div id="atom_logo">
-            <img src="assets/images/icons8-atom-100 (1).png" alt="atom icon"> 
-        </div >
-        <div id="title">
-              <div>ROCK</div>
-              <div>PAPER</div>
-              <div>SCISSORS</div>
-              <div>LIZARD</div>
-              <div>SPOCK</div>
+            <img src="assets/images/icons8-atom-100.png" alt="atom icon">
+        </div>
+        <div id="title" class="logo">
+            <div>ROCK</div>
+            <div>PAPER</div>
+            <div>SCISSORS</div>
+            <div>LIZARD</div>
+            <div>SPOCK</div>
 
         </div>
     </div>
 
+    <span></span>
 
     <!-- GAME AREA -->
     <div id="game_area_container">
-      <div><h1>GAME AREA</h1></div>
-      <div><h2>Choose a weapon</h2></div>
-      <button id="rock" onclick="player('Rock')"> 
-          <img src="assets/images/icons8-hand-rock-80.jpg" alt="hand rock icon">
-      </button>
-      <button id="paper" onclick="player('Paper')">
-          <img src="assets/images/icons8-hand-paper-80.png" alt="hand paper icon">
-      </button>
-      <button id="scissors" onclick="player('Scissors')">
-          <img src="assets/images/output-onlinepngtools-scissors80.png" alt="hand scissors icon">
-      </button>
-      <button id="lizard" onclick="player('Lizard')">
-          <img src="assets/images/output-onlinepngtools-2lizard.png" alt="hand lizard icon">
-      </button>
-      <button id="spock" onclick="player('Spock')">
-          <img src="assets/images/icons8-spock-80.png" alt="hand Spock icon">
-      </button>
-
-      <!-- BOT's choice and RESULT-->
-      <div>
-        <p id="bot_go"></p>
-        <p id="user_go"></p>
-        <p id="winner"></p>
-      </div>
-
-      <!--Scoreboard-->
-      <div>
-          <p>SCOREBOARD:</p>
-          <p id="bot_hand">Your score: <span id="myscore">0</span></p>
-          <p id="my_hand">Bot's score: <span id="botscore">0</span></p>
+        <div>
+            <h1>Choose a weapon:</h1>
         </div>
-    </div> 
-    
-    
-    
+        <button id="rock" onclick="player('Rock')">
+            <img src="assets/images/icons8-hand-rock-80.jpg" alt="hand rock icon">
+        </button>
+        <button id="paper" onclick="player('Paper')">
+            <img src="assets/images/icons8-hand-paper-80.png" alt="hand paper icon">
+        </button>
+        <button id="scissors" onclick="player('Scissors')">
+            <img src="assets/images/output-onlinepngtools-scissors80.png" alt="hand scissors icon">
+        </button>
+        <button id="lizard" onclick="player('Lizard')">
+            <img src="assets/images/output-onlinepngtools-2lizard.png" alt="hand lizard icon">
+        </button>
+        <button id="spock" onclick="player('Spock')">
+            <img src="assets/images/icons8-spock-80.png" alt="hand Spock icon">
+        </button>
+
+        <!-- BOT's choice and RESULT-->
+        <div>
+            <p id="bot_go"></p>
+            <p id="user_go"></p>
+            <p id="winner"></p>
+        </div>
+
+        <!--Scoreboard-->
+        <div>
+            <p>SCOREBOARD:</p>
+            <p id="bot_hand">Your score: <span id="myscore">0</span></p>
+            <p id="my_hand">Bot's score: <span id="botscore">0</span></p>
+        </div>
+    </div>
+
+
+
     <footer class="signature" id="footer_container">
         <div>
             <p>Copyright © Rock, paper, scissors, lizard and Spock</p>
             <p>Made by Ainhoa Bilbao Lodosa with ❤ in Cork (Ireland)</p>
         </div>
-        
-     </footer>
+
+    </footer>
 
 
     <!-- JS Script internal link-->
     <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>

@@ -61,3 +61,6 @@ Mirrored the picture with **www.img2go.com**
 - **Icons** created using **icons8.com**
 
 - **Resized PNG images** from 96 to 80 using **onlinepngtools.com**
+
+HTML validaded using https://validator.w3.org/ by direct input
+CSS validated using https://jigsaw.w3.org/css-validator/validator by direct input
